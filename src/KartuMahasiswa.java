@@ -28,9 +28,14 @@ public class KartuMahasiswa {
     System.out.print("Nama Lengkap: ");
     String namaLengkap = scanner.nextLine();
 
-
-
-
+    System.out.println();
+    System.out.println("=== KARTU MAHASISWA ===");
+    System.out.println("Nama: " + namaLengkap);
+    System.out.println("NIK: "+ nikViv);
+    System.out.println("Umur: " + umurViv + " tahun");
+    System.out.println("Tinggi: "+tinggiBadan+" cm");
+    System.out.println("Gol Darah: "+golonganDarah);
+    System.out.println("Menikah: "+menikahViv);
 
     }
 }
